@@ -2,8 +2,7 @@
 
 let str = prompt('Введите строку');
 
-//внимание! вывожу в документ, а не в консоль
-document.write(trimStr(str));
+console.log(trimStr(str));
 
 function trimStr(data) {
     if(typeof data != "string") {
